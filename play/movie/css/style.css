@@ -906,7 +906,7 @@ ul.ms_lang_box:after {
 }
 .ms_heading h1:after {
 	width: 100px;
-	height: 5px;
+	height: 0px;
 	content: "";
 	position: absolute !important;
 	bottom: 0;
@@ -915,7 +915,7 @@ ul.ms_lang_box:after {
 	background: -webkit-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
 	background: -moz-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
 	background: -ms-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
-	background: -o-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%);
+	background: -o-radial-gradient(50% 50%, ellipse closest-side, #3bc8e7, rgba(255, 42, 112, 0) 60%); 
 }
 .ms_rcnt_box {
 	text-align: center;
