@@ -844,7 +844,7 @@ ul.ms_lang_box:after {
 }
 /*====Banner Css Start====*/
 .ms-banner {
-	padding: 0px 0px 40px;
+	padding: 0px 0px 10px;
 }
 .ms_banner_img {
 	text-align: center;
