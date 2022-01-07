@@ -8,13 +8,13 @@
 <!-- Begin Head -->
 
 <head>
-    <title>Miraculous - Online Music Store Html Template</title>
+    <title>MovieHub Free Movie Store</title>
     <meta charset="utf-8">
     <!-- <meta content="width=device-width, initial-scale=1.0" name="viewport"> -->
     <meta name="description" content="Music">
     <meta name="keywords" content="">
     <meta name="author" content="kamleshyadav">
-    <meta name="MobileOptimized" content="320">
+    <!-- <meta name="MobileOptimized" content="320"> -->
     <!--Start Style -->
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -39,8 +39,15 @@
     <div class="ms_main_wrapper">
         <!---Side Menu Start--->
         <div class="ms_sidemenu_wrapper">
-            <div class="ms_nav_close">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <div class="ms_nav_close" style="right: 2px; top: 2px;">
+                <!-- <i class="fa fa-angle-right" aria-hidden="true"></i> -->
+                <div class="divmenu_icon" style="width: 20px; height: 2px; background-color: rgba(255, 255, 255, 0); margin: 6px 30px;"></div>
+                <div class="divmenu_icon" style="width: 20px; height: 2px; background-color: rgb(255, 255, 255); margin: 6px 30px;"></div>
+                <div class="divmenu_icon" style="width: 20px; height: 2px; background-color: White; margin: 6px 30px;"></div>
+                <div class="divmenu_icon" style="width: 20px; height: 2px; background-color: white; margin: 6px 30px;"></div>
+                <div class="divmenu_icon" style="width: 20px; height: 2px; background-color: white; margin: 6px 30px;"></div>
+                <div class="divmenu_icon" style="width: 20px; height: 2px; background-color: rgba(255, 255, 255, 0); margin: 6px 30px;"></div>
+                <div class="divmenu_icon" style="width: 20px; height: 2px; background-color: rgba(255, 255, 255, 0); margin: 6px 30px;"></div>
             </div>
             <div class="ms_sidemenu_inner">
                 <div class="ms_logo_inner">
@@ -183,19 +190,24 @@
             <!---Header--->
             <div class="ms_header">
                 <div class="ms_top_left">
-                    <!-- <div class="ms_top_search">
-                        <input type="text" class="form-control" placeholder="Search Music Here..">
+                    <div class="ms_top_search" style="max-width: 17%;">
+                        <span><a href="https://moond.info"  class="ms_color form-control" style="font-size: 22px;padding-bottom: 5px;"> <b> MovieHub</b></a></span>  <span class="top_marquee"><a href="#"></a></span>
+                        
+                        <!-- <input type="text" class="form-control" placeholder="Search Music Here..">
                         <span class="search_icon">
 							<img src="images/svg/search.svg" alt="">
-						</span>
+						</span> -->
                     </div>
-                    <div class="ms_top_trend">
-                        <span><a href="#"  class="ms_color">Trending Songs :</a></span> <span class="top_marquee"><a href="#">Dream your moments, Until I Met You, Gimme Some Courage, Dark Alley (+8 More)</a></span>
+                    <!-- <div class="ms_top_trend">
+                        <span><a href="#"  class="ms_color" style="color: red;">Information :</a></span> <span class="top_marquee"><a href="#">we are under maintenance so few movies will not be available</a></span>
                     </div> -->
+                    <!-- <div class="ms_top_trend">
+                        <span><a href="https://moond.info"  class="ms_color" style="font-size: 25px;"> <b> MovieHub</b></a></span> <span class="top_marquee"><a href="#"></a></span>
+                    </div>  -->
                 </div>
                 <div class="ms_top_right">
-                    <div class="ms_top_lang">
-                        <span data-toggle="modal" data-target="#lang_modal">languages <img src="images/svg/lang.svg" alt=""></span>
+                    <div class="ms_top_lang" style="color: red;">
+                        <span data-toggle="modal" data-target="#lang_modal1">We are under Maintenance <img src="images/svg/lang1.svg" alt=""></span>
                     </div>
                     <div class="ms_top_btn">
                         <a href="javascript:;" class="ms_btn reg_btn" data-toggle="modal" data-target="#myModal"><span>register</span></a>
@@ -205,38 +217,38 @@
             </div>
             <!---Banner--->
             <div class="ms-banner">
-                <div class="container-fluid">
+                <a href="http://bewakoof.com" target="_blank"><div class="container-fluid" style="padding-top: 15px;">
+                    <img src="img/poster/try img.png" alt="" class="img-fluid" style="border-radius: 10px;">
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
-                            <div class="ms_banner_img">
-                                <img src="images/banner.png" alt="" class="img-fluid">
-                            </div>
-                            <div class="ms_banner_text">
+                            <!-- <div class="ms_banner_img">
+                            </div> -->
+                            <!-- <div class="ms_banner_text">
                                 <h1>This Month’s</h1>
                                 <h1 class="ms_color">Record Breaking Albums !</h1>
                                 <p>Dream your moments, Until I Met You, Gimme Some Courage, Dark Alley, One More Of A Stranger, Endless<br> Things, The Heartbeat Stops, Walking Promises, Desired Games and many more...</p>
                                 <div class="ms_banner_btn">
                                     <a href="album.html" class="ms_btn">Listen Now</a>
-                                    <!-- <a href="pla" class="ms_btn">Add To Queue</a> -->
+                                    <a href="pla" class="ms_btn">Add To Queue</a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
-                </div>
+                </div></a>
             </div>
             <!---Recently Played Music--->
             <div class="ms_rcnt_slider">
                 <div class="ms_heading">
-                    <h1>Recently Played</h1>
+                    <h1>Recently Added</h1>
                     <span class="veiw_all"><a href="#">view more</a></span>
                 </div>
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <a href="shiddat.html"><div class="swiper-slide">
+                        <a href="play/movie/shiddat.html"><div class="swiper-slide">
                             <div class="ms_rcnt_box">
                                 <div class="ms_rcnt_box_img">
                                     <img src="img/poster/shiddat.png" alt="">
-                                    <div class="ms_main_overlay">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -251,19 +263,19 @@
                                         <div class="ms_play_icon">
                                            <a href="play/movie/shiddat.html"> <img src="images/svg/play.svg" alt=""></a>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div></a>
-                                <div class="ms_rcnt_box_text">
-                                    <h3><a href="shiddat.html">Shiddat</a></h3>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="play/movie/shiddat.html">Shiddat</a></h3>
                                     <p>By Hotstar</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <a href="play/movie/hum_do_hamare_do.html"><div class="ms_rcnt_box_img">
-                                    <img src="img/poster/hum do dumera do1.png" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href="play/movie/pushpa.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/pushpa.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -278,19 +290,19 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div></a>
-                                <div class="ms_rcnt_box_text">
-                                    <h3><a href="#">Until I Met You</a></h3>
-                                    <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="play/movie/pushpa.html">Pushpa</a></h3>
+                                    <p>Only on our website</p>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/music/r_music3.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href="play/movie/hum_do_hamare_do.html"></a><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/hum do dumera do1.png" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -305,19 +317,19 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
-                                <div class="ms_rcnt_box_text">
-                                    <h3><a href="#">Gimme Some Courage</a></h3>
-                                    <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="play/movie/hum_do_hamare_do.html">Hum Do Hamare Do</a></h3>
+                                    <p>By Hotstar</p>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/music/r_music4.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href="play/movie/jai-bhim.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/jai bhim.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -332,19 +344,19 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
-                                    <h3><a href="#">Dark Alley Acoustic</a></h3>
-                                    <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Jai Bhim</a></h3>
+                                    <p>By Prime Video</p>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/music/r_music5.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href="play/movie/antim.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/antim.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -359,19 +371,19 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
-                                    <h3><a href="#">Walking Promises</a></h3>
-                                    <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Antim</a></h3>
+                                    <p>By Zee5</p>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/music/r_music6.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href="play/movie/Sooryavanshi.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/sooryavanshi.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -386,19 +398,19 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
-                                    <h3><a href="#">Desired Games</a></h3>
-                                    <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Sooryavanshi</a></h3>
+                                    <p>By Netflix</p>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/music/r_music1.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href="play/movie/Sanak.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/sanak.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -413,19 +425,19 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
-                                    <h3><a href="#">Dream Your Moments (Duet)</a></h3>
-                                    <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Sanak</a></h3>
+                                    <p>By Hotstar</p>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/music/r_music2.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href="play/movie/Satyameva-Jayate-2.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/satyameva jayate 2.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -440,19 +452,19 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
-                                    <h3><a href="#">Until I Met You</a></h3>
-                                    <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Satyameva Jayate 2</a></h3>
+                                    <p>By Prime Video</p>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/music/r_music3.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href="play/movie/Atrangi-Re.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/atrangi re.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -467,19 +479,19 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
-                                    <h3><a href="#">Gimme Some Courage</a></h3>
-                                    <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Atrangi Re</a></h3>
+                                    <p>By Hotstar</p>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/music/r_music4.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href="play/movie/Shershaah.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/shershaan.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -494,22 +506,22 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
-                                    <h3><a href="#">Dark Alley Acoustic</a></h3>
-                                    <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Shershaah</a></h3>
+                                    <p>By Prime Video</p>
+                                </div> -->
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Add Arrows -->
-                <div class="swiper-button-next slider_nav_next"></div>
-                <div class="swiper-button-prev slider_nav_prev"></div>
+                <div class="swiper-button-next slider_nav_next" id="Arrows_css" tabindex="0" role="button" aria-label="Next slide" style="border: 2px solid black border 2px solid black;height: 100px;background-color: #000; width: 30px;"></div>
+                <div class="swiper-button-next slider_nav_prev" tabindex="0" role="button" aria-label="Next slide" style="border: 2px solid black border 2px solid black;height: 100px;background-color: #000; width: 30px;"></div>
             </div>
             <!---Weekly Top 15--->
-            <div class="ms_weekly_wrapper">
+            <!-- <div class="ms_weekly_wrapper">
                 <div class="ms_weekly_inner">
                     <div class="row">
                         <div class="col-lg-12">
@@ -692,7 +704,7 @@
                                     <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- <div class="col-lg-4 col-md-12 padding_right40">
                             <div class="ms_weekly_box">
                                 <div class="weekly_left">
@@ -1052,22 +1064,22 @@
                                 </ul>
                             </div>
                         </div> -->
-                    </div>
+                    <!-- </div>
                 </div>
-            </div>
+            </div> -->
             <!---Featured Artists Music--->
             <div class="ms_featured_slider">
                 <div class="ms_heading">
-                    <h1>Featured Artists</h1>
+                    <h1>Trending</h1>
                     <span class="veiw_all"><a href="#">view more</a></span>
                 </div>
                 <div class="ms_feature_slider swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/featured/song1.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href=""><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/spider man no way home.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -1082,18 +1094,18 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Best Of Ava Cornish</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/featured/song2.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href=""><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/sherni.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -1108,18 +1120,18 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Until I Met You</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/featured/song3.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href=""><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/sardar udham.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -1134,18 +1146,18 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Gimme Some Courage</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/featured/song4.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href=""><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/dhamaka.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -1160,18 +1172,18 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Dark Alley Acoustic</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/featured/song5.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href=""><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/krack.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -1186,18 +1198,18 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Walking Promises</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/featured/song6.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href=""><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/mimi.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -1212,18 +1224,18 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Desired Games</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/featured/song1.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href="#home"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/pagglait.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -1238,18 +1250,18 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Dream Your Moments (Duet)</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/featured/song2.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href="#home"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/white tiger.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -1264,18 +1276,18 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Until I Met You</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/featured/song3.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href=""><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/ramprasad ki tehrvi.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -1290,18 +1302,18 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Gimme Some Courage</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
-                                <div class="ms_rcnt_box_img">
-                                    <img src="images/featured/song4.jpg" alt="">
-                                    <div class="ms_main_overlay">
+                                <a href=""><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/aadhaar.jpg" alt="">
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
                                             <img src="images/svg/more.svg" alt="">
@@ -1316,18 +1328,28 @@
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="ms_rcnt_box_text">
+                                    </div> -->
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Dark Alley Acoustic</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Add Arrows -->
-                <div class="swiper-button-next1 slider_nav_next"></div>
-                <div class="swiper-button-prev1 slider_nav_prev"></div>
+                <div class="swiper-button-next slider_nav_next" id="Arrows_css" tabindex="0" role="button" aria-label="Next slide" style="
+    border: 2px solid black border 2px solid black;
+    height: 100px;
+    background-color: #000;
+    width: 30px;
+"></div>
+<div class="swiper-button-next slider_nav_prev" tabindex="0" role="button" aria-label="Next slide" style="
+    border: 2px solid black border 2px solid black;
+    height: 100px;
+    background-color: #000;
+    width: 30px;
+"></div>
             </div>
 			<!----Add Section Start---->
 			<!-- <div class="ms_advr_wrapper">
@@ -1340,7 +1362,7 @@
 				</div>
 			</div> -->
             <!----New Releases Section Start---->
-            <div class="ms_releases_wrapper">
+            <!-- <div class="ms_releases_wrapper">
                 <div class="ms_heading">
                     <h1>New Releases</h1>
                     <span class="veiw_all"><a href="#">view more</a></span>
@@ -1459,15 +1481,26 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- Add Arrows -->
-                <div class="swiper-button-next2 slider_nav_next"></div>
-                <div class="swiper-button-prev2 slider_nav_prev"></div>
-            </div>
+                <!-- <div class="swiper-button-next slider_nav_next" id="Arrows_css" tabindex="0" role="button" aria-label="Next slide" style="
+    border: 2px solid black border 2px solid black;
+    height: 100px;
+    background-color: #000;
+    width: 30px;
+"></div>
+<div class="swiper-button-next slider_nav_prev" tabindex="0" role="button" aria-label="Next slide" style="
+    border: 2px solid black border 2px solid black;
+    height: 100px;
+    background-color: #000;
+    width: 30px;
+"></div>
+             
+            </div> -->
             <!----Featured Albumn Section Start---->
             <div class="ms_fea_album_slider">
                 <div class="ms_heading">
-                    <h1>Featured Albums</h1>
+                    <h1>Popular</h1>
                     <span class="veiw_all"><a href="#">view more</a></span>
                 </div>
                 <div class="ms_album_slider swiper-container">
@@ -1475,7 +1508,7 @@
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/album/album1.jpg" alt="">
+                                    <img src="img/poster/pushpa.jpg" alt="">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
@@ -1493,16 +1526,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Bloodlust</a></h3>
                                     <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/album/album2.jpg" alt="">
+                                    <img src="img/poster/shershaan.jpg" alt="">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
@@ -1520,10 +1553,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Time flies</a></h3>
                                     <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -1547,10 +1580,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Dark matters</a></h3>
                                     <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -1574,10 +1607,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Eye to eye</a></h3>
                                     <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -1601,10 +1634,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Cloud nine</a></h3>
                                     <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -1628,16 +1661,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Cobweb of lies</a></h3>
                                     <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/album/album1.jpg" alt="">
+                                    <img src="img/poster/jai bhim.jpg" alt="">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
@@ -1655,16 +1688,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Bloodlust</a></h3>
                                     <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/album/album2.jpg" alt="">
+                                    <img src="img/poster/sanak.jpg" alt="">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
@@ -1682,16 +1715,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Time flies</a></h3>
                                     <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/album/album3.jpg" alt="">
+                                    <img src="img/poster/shiddat.png" alt="">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
@@ -1709,10 +1742,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Dark matters</a></h3>
                                     <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -1736,20 +1769,30 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Eye to eye</a></h3>
                                     <p>Ava Cornish & Brian Hill</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Add Arrows -->
-                <div class="swiper-button-next3 slider_nav_next"></div>
-                <div class="swiper-button-prev3 slider_nav_prev"></div>
+                <div class="swiper-button-next slider_nav_next" id="Arrows_css" tabindex="0" role="button" aria-label="Next slide" style="
+    border: 2px solid black border 2px solid black;
+    height: 100px;
+    background-color: #000;
+    width: 30px;
+"></div>
+<div class="swiper-button-next slider_nav_prev" tabindex="0" role="button" aria-label="Next slide" style="
+    border: 2px solid black border 2px solid black;
+    height: 100px;
+    background-color: #000;
+    width: 30px;
+"></div>
             </div>
             <!----Top Genres Section Start---->
-            <div class="ms_genres_wrapper">
+            <!-- <div class="ms_genres_wrapper">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="ms_heading">
@@ -1758,9 +1801,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="ms_genres_box">
-                            <img src="images/genrs/img1.jpg" alt="" class="img-fluid" />
-                            <div class="ms_main_overlay">
+                        <a href="#"><div class="ms_genres_box">
+                            <img src="images/genrs/img1.jpg" alt="" class="img-fluid" /> -->
+                            <!-- <div class="ms_main_overlay">
                                 <div class="ms_box_overlay"></div>
                                 <div class="ms_play_icon">
                                     <img src="images/svg/play.svg" alt="">
@@ -1775,15 +1818,15 @@
                                     <span class="ovrly_text1"><a href="#">romantic</a></span>
                                     <span class="ovrly_text2"><a href="#">view song</a></span>
                                 </div>
-                            </div>
-                        </div>
+                            </div> -->
+                        <!-- </div></a>
                     </div>
                     <div class="col-lg-6">
                         <div class="row">
                             <div class="col-lg-4">
-                                <div class="ms_genres_box">
-                                    <img src="images/genrs/img2.jpg" alt="" class="img-fluid" />
-                                    <div class="ms_main_overlay">
+                                <a href="#"><div class="ms_genres_box">
+                                    <img src="images/genrs/img7.jpg" alt="" class="img-fluid" /> -->
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
@@ -1796,13 +1839,13 @@
                                         <div class="ovrly_text_div">
                                             <span class="ovrly_text1"><a href="#">Classical</a></span>
                                         </div>
-                                    </div>
-                                </div>
+                                    </div> -->
+                                <!-- </div></a>
                             </div>
                             <div class="col-lg-8">
-                                <div class="ms_genres_box">
-                                    <img src="images/genrs/img3.jpg" alt="" class="img-fluid" />
-                                    <div class="ms_main_overlay">
+                                <a href="#"><div class="ms_genres_box">
+                                    <img src="images/genrs/img3.jpg" alt="" class="img-fluid" /> -->
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
@@ -1815,13 +1858,13 @@
                                         <div class="ovrly_text_div">
                                             <span class="ovrly_text1"><a href="#">hip hop</a></span>
                                         </div>
-                                    </div>
-                                </div>
+                                    </div> -->
+                                <!-- </div></a>
                             </div>
                             <div class="col-lg-8">
-                                <div class="ms_genres_box">
-                                    <img src="images/genrs/img5.jpg" alt="" class="img-fluid" />
-                                    <div class="ms_main_overlay">
+                                <a href="#"><div class="ms_genres_box">
+                                    <img src="images/genrs/img5.jpg" alt="" class="img-fluid" /> -->
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
@@ -1834,13 +1877,13 @@
                                         <div class="ovrly_text_div">
                                             <span class="ovrly_text1"><a href="#">dancing</a></span>
                                         </div>
-                                    </div>
-                                </div>
+                                    </div> -->
+                                <!-- </div></a>
                             </div>
                             <div class="col-lg-4">
-                                <div class="ms_genres_box">
-                                    <img src="images/genrs/img6.jpg" alt="" class="img-fluid" />
-                                    <div class="ms_main_overlay">
+                                <a href="#"><div class="ms_genres_box">
+                                    <img src="images/genrs/img6.jpg" alt="" class="img-fluid" /> -->
+                                    <!-- <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_play_icon">
                                             <img src="images/svg/play.svg" alt="">
@@ -1853,15 +1896,15 @@
                                         <div class="ovrly_text_div">
                                             <span class="ovrly_text1"><a href="#">EDM</a></span>
                                         </div>
-                                    </div>
-                                </div>
+                                    </div> -->
+                                <!-- </div></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="ms_genres_box">
-                            <img src="images/genrs/img4.jpg" alt="" class="img-fluid" />
-                            <div class="ms_main_overlay">
+                    </div> -->
+                    <!-- <div class="col-lg-2">
+                        <a href="#"><div class="ms_genres_box">
+                            <img src="images/genrs/img4.jpg" alt="" class="img-fluid" /> -->
+                            <!-- <div class="ms_main_overlay">
                                 <div class="ms_box_overlay"></div>
                                 <div class="ms_play_icon">
                                     <img src="images/svg/play.svg" alt="">
@@ -1874,11 +1917,11 @@
                                 <div class="ovrly_text_div">
                                     <span class="ovrly_text1"><a href="#">rock</a></span>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                            </div> -->
+                        <!-- </div></a>
+                    </div> -->
+                <!-- </div>
+            </div> -->
 			<!----Add Section Start---->
 			<!-- <div class="ms_advr_wrapper ms_advr2">
 				<div class="container">
@@ -1889,10 +1932,579 @@
 					</div>
 				</div>
 			</div> -->
+
+            <div class="ms_rcnt_slider">
+                <div class="ms_heading">
+                    <h1>Recently Added</h1>
+                    <span class="veiw_all"><a href="#">view more</a></span>
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <a href=""><div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <div class="ms_rcnt_box_img">
+                                    <img src="img/poster/atrangi re.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                           <a href="play/movie/shiddat.html"> <img src="images/svg/play.svg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="play/movie/shiddat.html">Shiddat</a></h3>
+                                    <p>By Hotstar</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href=""><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/parampara.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="play/movie/pushpa.html">Pushpa</a></h3>
+                                    <p>Only on our website</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/hum_do_hamare_do.html"></a><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/hum do dumera do1.png" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="play/movie/hum_do_hamare_do.html">Hum Do Hamare Do</a></h3>
+                                    <p>By Hotstar</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/jai-bhim.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/jai bhim.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Jai Bhim</a></h3>
+                                    <p>By Prime Video</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/antim.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/antim.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Antim</a></h3>
+                                    <p>By Zee5</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/Sooryavanshi.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/sooryavanshi.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Sooryavanshi</a></h3>
+                                    <p>By Netflix</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/Sanak.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/sanak.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Sanak</a></h3>
+                                    <p>By Hotstar</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/Satyameva-Jayate-2.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/satyameva jayate 2.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Satyameva Jayate 2</a></h3>
+                                    <p>By Prime Video</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/Atrangi-Re.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/atrangi re.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Atrangi Re</a></h3>
+                                    <p>By Hotstar</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/Shershaah.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/shershaan.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Shershaah</a></h3>
+                                    <p>By Prime Video</p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next slider_nav_next" id="Arrows_css" tabindex="0" role="button" aria-label="Next slide" style="border: 2px solid black border 2px solid black;height: 100px;background-color: #000; width: 30px;"></div>
+                <div class="swiper-button-next slider_nav_prev" tabindex="0" role="button" aria-label="Next slide" style="border: 2px solid black border 2px solid black;height: 100px;background-color: #000; width: 30px;"></div>
+            </div>
+
+            <div class="ms_rcnt_slider">
+                <div class="ms_heading">
+                    <h1>Recently Added</h1>
+                    <span class="veiw_all"><a href="#">view more</a></span>
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <a href=""><div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <div class="ms_rcnt_box_img">
+                                    <img src="img/poster/shershaan.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                           <a href="play/movie/shiddat.html"> <img src="images/svg/play.svg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="play/movie/shiddat.html">Shiddat</a></h3>
+                                    <p>By Hotstar</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href=""><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/antim.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="play/movie/pushpa.html">Pushpa</a></h3>
+                                    <p>Only on our website</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/hum_do_hamare_do.html"></a><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/hum do dumera do1.png" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="play/movie/hum_do_hamare_do.html">Hum Do Hamare Do</a></h3>
+                                    <p>By Hotstar</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/jai-bhim.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/jai bhim.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Jai Bhim</a></h3>
+                                    <p>By Prime Video</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/antim.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/antim.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Antim</a></h3>
+                                    <p>By Zee5</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/Sooryavanshi.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/sooryavanshi.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Sooryavanshi</a></h3>
+                                    <p>By Netflix</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/Sanak.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/sanak.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Sanak</a></h3>
+                                    <p>By Hotstar</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/Satyameva-Jayate-2.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/satyameva jayate 2.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Satyameva Jayate 2</a></h3>
+                                    <p>By Prime Video</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/Atrangi-Re.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/atrangi re.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Atrangi Re</a></h3>
+                                    <p>By Hotstar</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="ms_rcnt_box">
+                                <a href="play/movie/Shershaah.html"><div class="ms_rcnt_box_img">
+                                    <img src="img/poster/shershaan.jpg" alt="">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        <div class="ms_more_icon">
+                                            <img src="images/svg/more.svg" alt="">
+                                        </div>
+                                        <ul class="more_option">
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                                            <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                                        </ul>
+                                        <div class="ms_play_icon">
+                                            <img src="images/svg/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div></a>
+                                <!-- <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Shershaah</a></h3>
+                                    <p>By Prime Video</p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next slider_nav_next" id="Arrows_css" tabindex="0" role="button" aria-label="Next slide" style="border: 2px solid black border 2px solid black;height: 100px;background-color: #000; width: 30px;"></div>
+                <div class="swiper-button-next slider_nav_prev" tabindex="0" role="button" aria-label="Next slide" style="border: 2px solid black border 2px solid black;height: 100px;background-color: #000; width: 30px;"></div>
+            </div>
+            
             <!----Live Radio Section Start---->
             <div class="ms_radio_wrapper">
                 <div class="ms_heading">
-                    <h1>Live Radio</h1>
+                    <h1>Top Rated</h1>
                     <span class="veiw_all"><a href="#">view more</a></span>
                 </div>
                 <div class="ms_radio_slider swiper-container">
@@ -1900,7 +2512,7 @@
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/radio/img1.jpg" alt="">
+                                    <img src="img/poster/jai bhim.jpg" alt="">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
@@ -1918,15 +2530,15 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Top Trendings</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="ms_rcnt_box">
                                 <div class="ms_rcnt_box_img">
-                                    <img src="images/radio/img2.jpg" alt="">
+                                    <img src="img/poster/satyameva jayate 2.jpg" alt="">
                                     <div class="ms_main_overlay">
                                         <div class="ms_box_overlay"></div>
                                         <div class="ms_more_icon">
@@ -1944,9 +2556,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">New Romantic Charts</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -1970,9 +2582,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Dance Beats - Hip Hops</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -1996,9 +2608,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Workout Time</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -2022,9 +2634,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Best Classics Of All Time</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -2048,9 +2660,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Heart Broken - Soul Music</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -2074,9 +2686,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Dream Your Moments (Duet)</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -2100,9 +2712,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Until I Met You</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -2126,9 +2738,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Gimme Some Courage</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -2152,21 +2764,31 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ms_rcnt_box_text">
+                                <!-- <div class="ms_rcnt_box_text">
                                     <h3><a href="#">Dark Alley Acoustic</a></h3>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Add Arrows -->
-                <div class="swiper-button-next4 slider_nav_next"></div>
-                <div class="swiper-button-prev4 slider_nav_prev"></div>
+                <div class="swiper-button-next slider_nav_next" id="Arrows_css" tabindex="0" role="button" aria-label="Next slide" style="
+    border: 2px solid black border 2px solid black;
+    height: 100px;
+    background-color: #000;
+    width: 30px;
+"></div>
+<div class="swiper-button-next slider_nav_prev" tabindex="0" role="button" aria-label="Next slide" style="
+    border: 2px solid black border 2px solid black;
+    height: 100px;
+    background-color: #000;
+    width: 30px;
+"></div>
             </div>
             <!----Main div close---->
         </div>
         <!----Footer Start---->
-        <div class="ms_footer_wrapper">
+        <!-- <div class="ms_footer_wrapper">
             <div class="ms_footer_logo">
                 <a href="index-2.html"><img src="images/open_logo.png" alt=""></a>
             </div>
@@ -2248,12 +2870,14 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+            
+            
             <!----Copyright---->
             <div class="col-lg-12">
                 <div class="ms_copyright">
                     <div class="footer_border"></div>
-                    <p><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p>
+                    <p><a target="_blank" href="#">Vikas Moond</a></p>
                 </div>
             </div>
         </div>
